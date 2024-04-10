@@ -2,7 +2,7 @@ package ru.yandex.practicum.contacts.presentation.base;
 
 public interface ListDiffInterface<T> {
 
-    boolean theSameAs(T smth);
+    boolean theSameAs(T anotherItem);
 
-    boolean equals(Object smth);
+    boolean equals(Object anotherItem);
 }
